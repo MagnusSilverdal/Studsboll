@@ -27,7 +27,7 @@ public class BasicSimulationPlain {
             y = updatePos(deltaT, v, y);
         }
     }
-
+ //
     private static double updatePos(double deltaT, double v, double y) {
         y += v*deltaT;
         return y;
